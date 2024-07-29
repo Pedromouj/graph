@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.rounded-img {
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  .rounded-img:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    opacity: 0.9;
+    
+  }
+
+  .emoji{
+    transition: 0.2s;
+    cursor: pointer;
+    opacity: 0.9;
+  }
